@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=America/Bogota
+    username: root
+    password: NeivaHuila2512*
+

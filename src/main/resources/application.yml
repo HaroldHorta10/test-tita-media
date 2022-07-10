@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: test-tita
+  profiles:
+    active: local
+server:
+  port: 8080
+  servlet:
+    context-path: /api/tita-media
+application-description: '@project.description@'
+application-version: '@project.version@'
+springdoc:
+  swagger-ui:
+    path: /docs/swagger-ui.html
+  api-docs:
+    path: /docs
